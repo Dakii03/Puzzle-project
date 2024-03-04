@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Puzzle</title>
+        <link rel="stylesheet" href="puzzle.css">
+        <script src="puzzle.js"></script>
+    </head>
+
+    <body>
+        <br>
+        <div id="board"></div>
+        <h2>Potezi: <span id="potezi">0</span></h2>
+        <h3>Vreme: <span id="vreme">03:00</span></h3>
+        <label id="kraj"></label><br>
+
+        <div id="delici"></div>
+
+        <p id="pravila">Pravila igre: <br> Slozite puzlu za sto krace vreme. <br> Kada postavite deo puzle ne mozete ga skloniti!</p>
+
+        <p id="res">Ovako treba da izgleda na kraju</p>
+
+        <img id="resenje" src="images/blank2.jpg" alt="images/26.jpg" width="405px" height="405px">
+
+        <button id="start" onclick="start()">Start</button>
+        <button id="osvezi" onclick="location.reload()">Osvezi</button>
+
+        <div id="top10">
+            <p id="tp">Top 10:</p>
+            <p id="igraci"></p>
+        </div>
+        <p id="rezIgre"></p>
+        
+
+    </body>
+</html>
